@@ -1,0 +1,100 @@
+{
+  "FrontEnd": {
+    "Title": "Front-End Skills",
+    "Color": "#4A1259",
+    "Skills": {
+      "Languages": ["JavaScript", "TypeScript", "PHP", "HTML", "CSS"],
+      "Frameworks": [
+        "React",
+        "Svelte",
+        "Vue",
+        "Angular",
+        "Bootstrap",
+        "TailwindCSS",
+        "TailwindCSS",
+        "React Native",
+        "Flutter",
+        "Electron"
+      ],
+      "MetaFrameworks": [
+        "Next.js",
+        "Gatsby.js",
+        "SvelteKit",
+        "Nuxt.js",
+        "Analog"
+      ],
+      "Tools": [
+        "NPM",
+        "Yarn",
+        "Webpack",
+        "Babel",
+        "ESLint",
+        "Prettier",
+        "PostCSS",
+        "Sass",
+        "Less",
+        "Jest",
+        "Storybook",
+        "Git",
+        "GitHub"
+      ]
+    }
+  },
+  "BackEnd": {
+    "Title": "Back-End Skills",
+    "Color": "#3F8C68",
+    "Skills": {
+      "Languages": [
+        "Java",
+        "Python",
+        "C++",
+        "C",
+        "C#",
+        ".NET",
+        "PHP",
+        "COBOL",
+        "JavaScript",
+        "TypeScript",
+        "SQL",
+        "Bash",
+        "Kotlin"
+      ],
+      "Frameworks": ["Spring", "Express", "Nest"],
+      "Databases": [
+        "MySQL",
+        "SQLServer",
+        "PostgreSQL",
+        "MongoDB",
+        "Redis",
+        "SQLite",
+        "MariaDB",
+        "HyGraph",
+        "Neo4j",
+        "Contentful",
+        "Firebase",
+        "Strapi",
+        "Oracle DB"
+      ]
+    }
+  },
+  "Other": {
+    "Title": "Other Skills",
+    "Color": "#622773",
+    "Skills": {
+      "Techniques": ["REST", "Scrum"],
+      "Platforms": [
+        "AWS",
+        "Linux",
+        "Docker",
+        "Kubernetes",
+        "Android",
+        "Windows",
+        "MacOS",
+        "IOS",
+        "DigitalOcean",
+        "Vercel"
+      ],
+      "Proxy": ["Nginx", "Apache"]
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+    "jobs": [
+      {
+        "Name": "Full Stack Developer",
+        "Company": "OCA",
+        "Start": "January 2022",
+        "End": "Present",
+        "Description": "Full Stack Developer"
+      },
+      {
+        "Name": "Labourer",
+        "Company": "Sapacon Drywall LTD",
+        "Start": "June 2019",
+        "End": "August 2021 (Summers)",
+        "Description": "Labourer"
+      },
+      {
+        "Name": "Backshop Employee",
+        "Company": "Carelton Golf and Yacht Club",
+        "Start": "May 2018",
+        "End": "June 2020 (Summers)",
+        "Description": "Backshop Employee"
+      }
+    ]
+  }

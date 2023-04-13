@@ -1,0 +1,18 @@
+@keyframes Bounce {
+  0% {
+    transform: translateY(0);
+    fill: white;
+  }
+  50% {
+    transform: translateY(-10px);
+    fill: #9c9c9c;
+  }
+  100% {
+    transform: translateY(0);
+    fill: white;
+  }
+}
+
+.button-bounce {
+  animation: Bounce 2s infinite;
+}

@@ -1,0 +1,7 @@
+{
+  "Icons": [
+    { "Name": "Email", "Icon": "emailicon.png", "Color": "#333333" },
+    { "Name": "Linkedin", "Icon": "linkedinicon.png", "Color": "#0077B5" },
+    { "Name": "GitHub", "Icon": "githubicon.png", "Color": "#333333" }
+  ]
+}

@@ -1,0 +1,40 @@
+@keyframes CoverScreen {
+  0% {
+    clip-path: circle(0% at 5% 90%);
+  }
+  80% {
+    clip-path: circle(150% at 5% 90%);
+  }
+}
+
+.cover-anim {
+  animation: CoverScreen 1.5s ease-in-out;
+}
+
+@keyframes ChangeText {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.change-text-anim {
+  animation: ChangeText 1s ease-in-out;
+}
+
+#SkillSection {
+  background: #4a1259;
+}
+
+#SkillSection {
+  // clip-path: url(#cover);
+  #Skills_TextContainer2 {
+    clip-path: circle(0% at 5% 90%);
+    // transition: all 1.5s ease-in-out;
+  }
+}

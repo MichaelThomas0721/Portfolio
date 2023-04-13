@@ -1,0 +1,25 @@
+{
+    "projects": [
+      {
+        "Name": "Sneak Easy",
+        "Description": "A fake eCommerce site for selling shoes. I created this website to learn how payment processing is handled. The site lets you browse shoes, add them to your cart, and checkout. The checkout process is handled by Stripe, which is a popular payment processing service.",
+        "Tags": ["Vue", "NuxtJS", "TailwindCSS", "Stripe"],
+        "Image": "testimg.png",
+        "Link": "https://sneakeasy.michaelthomastech.ca/"
+      },
+      {
+        "Name": "Japanese Flashcards",
+        "Description": "A flash card app for learning the two basic Japanese alphabets. I created this app to learn more about android development and React Native. The app lets you browse through flash cards of either the Hiragana or Katakana alphabets.",
+        "Tags": ["React Native", "Expo", "Android", "Google Play Store"],
+        "Image": "testimg.png",
+        "Link": "https://play.google.com/store/apps/details?id=com.michaelthomastech.japanese_flash_cards"
+      },
+      {
+        "Name": "Wacky Words",
+        "Description": "Wacky Words is a wordle type game where you have a time limit to guess the word, there is a new word every day but you can also choose to generate a new random word.",
+        "Tags": ["React", "NextJS", "TailwindCSS"],
+        "Image": "testimg.png",
+        "Link": "https://wackywords.michaelthomastech.ca/"
+      }
+    ]
+  }

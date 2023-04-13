@@ -1,0 +1,63 @@
+$move: 60%;
+$rotate: 85deg;
+$aTime: 0.25s; //animation time
+
+.card-container {
+  .card {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+    transition: rotateX $aTime ease-in, z-index $aTime linear,
+      all $aTime ease-in-out;
+  }
+
+  .card--1 {
+    transform: translateY(0) rotateX(0deg);
+    z-index: 0;
+    order: 0;
+    opacity: 0;
+    scale: 0;
+  }
+
+  .card-0 {
+    transform: translateY(calc($move * -1)) rotateX($rotate);
+    z-index: 1;
+    order: 1;
+    opacity: 1;
+  }
+
+  .card-1 {
+    transform: translateY(calc($move * 0)) rotateX(0deg);
+    z-index: 2;
+    order: 2;
+    opacity: 1;
+    box-shadow: 0 10px 100px 20px rgba(0, 0, 0, 1);
+  }
+
+  .card-2 {
+    transform: translateY(calc($move * 1)) rotateX(-$rotate);
+    z-index: 1;
+    order: 3;
+    opacity: 1;
+  }
+
+  .card-3 {
+    transform: translateY(0) rotateX(0deg);
+    z-index: 0;
+    order: 4;
+    opacity: 0;
+    scale: 0;
+  }
+
+  .cardz-1 {
+    z-index: 2;
+  }
+
+  .cardz-2 {
+    z-index: 1;
+  }
+
+  .cardz-3 {
+    z-index: 0;
+  }
+}
