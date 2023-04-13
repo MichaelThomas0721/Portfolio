@@ -3,7 +3,7 @@
 </script>
 
 <div
-  class={`w-full max-w-xl h-2/3 bg-teal text-white order-[${index}] card card-${index} p-3 flex flex-col overflow-hidden`}
+  class={`w-full max-w-xl min-h-[400px] h-2/3 bg-teal text-white order-[${index}] card card-${index} p-3 flex flex-col overflow-hidden`}
 >
   <p class="text-left text-4xl">{info.Name}</p>
   <p class="text-3xl">@ {info.Company}</p>

@@ -25,7 +25,7 @@
   }
 </script>
 
-<div class="h-full w-full flex flex-col justify-center items-center px-2">
+<div class="min-h-[750px] h-full w-full flex flex-col justify-between items-center px-2">
   <button on:click={MoveUp}
     ><Icon
       src={RiSystemArrowUpSLine}
@@ -40,11 +40,10 @@
       <Card
         info={job}
         index={indexes[index]}
-        color={colors[index >= 3 ? index - 3 : index]}
       />
     {/each}
     {#each jobs as job, index}
-      <Card info={job} index={indexes[index + 3]} color={colors[index]} />
+      <Card info={job} index={indexes[index + 3]} />
     {/each}
   </div>
   <button on:click={MoveDown}

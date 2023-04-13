@@ -6,7 +6,7 @@
 </script>
 
 <section
-  class="flex flex-col items-center min-h-screen w-full justify-around bg-gradient-to-b from-teal to-darkTeal p-3"
+  class="flex flex-col gap-2 items-center min-h-[850px] w-full justify-around bg-gradient-to-b from-teal to-darkTeal p-3"
   id="intro"
 >
   <div class="flex flex-row flex-wrap gap-2 justify-around w-full items-center">

@@ -36,7 +36,7 @@
 </script>
 
 <section
-  class={`h-screen overflow-hidden relative flex flex-col gap-3 md:gap-12 justify-between items-center z-30`}
+  class={`min-h-[850px] h-fit overflow-hidden relative flex flex-col gap-3 md:gap-12 justify-between items-center z-30`}
   id="SkillSection"
 >
   <TextContainer
