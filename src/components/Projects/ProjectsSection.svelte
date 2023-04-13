@@ -5,7 +5,7 @@
 </script>
 
 <div class="min-h-screen flex flex-col items-center gap-6">
-  <p>Projects</p>
+  <h3 class="text-5xl font-bold">Projects</h3>
   <div class="flex flex-col gap-8 px-2">
     {#each projects as project, index}
       <Container left={!(index % 2 == 0)} {project} />

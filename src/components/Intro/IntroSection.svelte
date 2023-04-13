@@ -6,22 +6,27 @@
 </script>
 
 <section
-  class="flex flex-col items-center min-h-screen w-full justify-around bg-gradient-to-b from-teal to-darkTeal"
+  class="flex flex-col items-center min-h-screen w-full justify-around bg-gradient-to-b from-teal to-darkTeal p-3"
   id="intro"
 >
-  <div class="flex flex-row justify-around w-full items-center">
+  <div class="flex flex-row flex-wrap gap-2 justify-around w-full items-center">
     <div class="flex flex-col gap-1">
       <p class="text-4xl">Hello! My name is</p>
       <h1 class="text-5xl font-bold">Michael Thomas</h1>
       <h2 class="text-4xl">Full Stack Developer</h2>
     </div>
-    <div class="w-96 aspect-square rounded-full bg-white" />
+    <img
+      src="ProfilePicture.jpg"
+      class="w-96 aspect-square rounded-full bg-white object-cover"
+      alt="Profile Picture"
+    />
   </div>
-  <button
+  <a
+    href="/resume.pdf"
     class="bg-orange hover:bg-opacity-80 p-3 px-6 font-semibold text-2xl rounded-sm"
-    >View My Resume</button
+    >View My Resume</a
   >
-  <button
+  <a href="#SkillSection"
     class="w-16 aspect-square flex justify-center items-center group text-white"
     ><Icon
       src={RiSystemArrowDownSLine}
@@ -33,6 +38,6 @@
           style="stop-color:#00f;stop-opacity:1"
         /></linearGradient
       ></Icon
-    ></button
+    ></a
   >
 </section>

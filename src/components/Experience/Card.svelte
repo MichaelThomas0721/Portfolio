@@ -1,5 +1,5 @@
 <script>
-  export let info, index, color;
+  export let info, index;
 </script>
 
 <div
@@ -9,7 +9,7 @@
   <p class="text-3xl">@ {info.Company}</p>
   <p class="text-lg text-gray-300">{info.Start} - {info.End}</p>
   <div class="max-h-32 h-full flex-shrink" />
-  <p class="h-fit flex-grow">
+  <p class="h-fit flex-grow text-lg">
     {info.Description}
   </p>
 </div>

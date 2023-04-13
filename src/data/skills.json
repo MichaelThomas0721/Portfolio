@@ -1,7 +1,7 @@
 {
   "FrontEnd": {
     "Title": "Front-End Skills",
-    "Color": "#4A1259",
+    "Color": "#622773",
     "Skills": {
       "Languages": ["JavaScript", "TypeScript", "PHP", "HTML", "CSS"],
       "Frameworks": [
@@ -42,7 +42,7 @@
   },
   "BackEnd": {
     "Title": "Back-End Skills",
-    "Color": "#3F8C68",
+    "Color": "#4A1259",
     "Skills": {
       "Languages": [
         "Java",
@@ -79,7 +79,7 @@
   },
   "Other": {
     "Title": "Other Skills",
-    "Color": "#622773",
+    "Color": "#350C40",
     "Skills": {
       "Techniques": ["REST", "Scrum"],
       "Platforms": [

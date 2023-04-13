@@ -1,6 +1,7 @@
 <script>
   import ContactSection from "$components/Contact/ContactSection.svelte";
 import ExperienceSection from "$components/Experience/ExperienceSection.svelte";
+  import Footer from "$components/Footer/Footer.svelte";
 import IntroSection from "$components/Intro/IntroSection.svelte";
   import ProjectsSection from "$components/Projects/ProjectsSection.svelte";
   import SkillsSection from "$components/Skills/SkillsSection.svelte";
@@ -8,13 +9,12 @@ import IntroSection from "$components/Intro/IntroSection.svelte";
   const { text } = data;
 </script>
 
-<div class="">
   <IntroSection />
   <SkillsSection />
   <ProjectsSection />
   <ExperienceSection />
   <ContactSection />
-</div>
+  <Footer />
 
 <style lang="postcss">
   :global(html) {

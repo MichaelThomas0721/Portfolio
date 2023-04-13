@@ -13,10 +13,6 @@
   let text;
   let inProgress = false;
   function ChangePage(index) {
-    console.log("inProgress: " + inProgress);
-    console.log("index: " + index);
-    console.log("active: " + active);
-    console.log("activeTxt: " + activeTxt);
     if (inProgress) return;
     if (cover) {
       inProgress = true;

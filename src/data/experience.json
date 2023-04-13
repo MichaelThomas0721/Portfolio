@@ -1,25 +1,25 @@
 {
     "jobs": [
       {
-        "Name": "Full Stack Developer",
-        "Company": "OCA",
-        "Start": "January 2022",
-        "End": "Present",
-        "Description": "Full Stack Developer"
-      },
-      {
         "Name": "Labourer",
         "Company": "Sapacon Drywall LTD",
         "Start": "June 2019",
         "End": "August 2021 (Summers)",
-        "Description": "Labourer"
+        "Description": "Duties included: Site maintenance and cleaning, applying fire caulking, moving materials through-out the job site, and other duties as required to support the framers, boarders, and tapers"
       },
       {
         "Name": "Backshop Employee",
         "Company": "Carelton Golf and Yacht Club",
         "Start": "May 2018",
         "End": "June 2020 (Summers)",
-        "Description": "Backshop Employee"
+        "Description": "Duties included: Cleaning golf clubs, golf carts, and golf balls, drove tractor for collecting driving range balls, fixed broken push carts, and other duties as required to assist with the golf club operations."
+      },
+      {
+        "Name": "Full Stack Developer",
+        "Company": "OCA",
+        "Start": "January 2022",
+        "End": "Present",
+        "Description": "Responsible for working with a designer to create a front-end and a back-end based on requirements then turning the design (figma) into a functioning website. Duties included creating a REST API, designing a cms, creating a front-end with react, creating reusable components, and testing the functions"
       }
     ]
   }

@@ -1,18 +1,20 @@
 <script>
-  export let name, icon, color;
+  export let name, icon, color, href;
 </script>
 
-<div
+<a
   class="h-44 aspect-square relative flex justify-center items-center rounded-full bg-white group overflow-hidden border-none"
+  {href}
+  target="_blank"
 >
-  <a
-    id="Icon"
+  <img
+    src={icon}
     class="w-1/2 aspect-square group-hover:-translate-y-3 transition-default z-30"
-  >
-    <img src={icon} class="w-full" alt={name + " Icon"} />
-  </a>
+    id="icon"
+    alt={name + " Icon"}
+  />
   <div
     style={`background-color: ${color}`}
     class="absolute h-0 aspect-square rounded-full group-hover:h-[110%] transition-default z-20"
   />
-</div>
+</a>
