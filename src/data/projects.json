@@ -1,25 +1,32 @@
 {
-    "projects": [
-      {
-        "Name": "Tech Bites",
-        "Description": "Tech Bites is a blog built with the SvelteKit framework. I created this website to learn more about the Svelte ecosystem and to share my thoughts on various topics.",
-        "Tags": ["Svelte", "SvelteKit", "TailwindCSS", "Contentful", "SASS"],
-        "Image": "techbites.png",
-        "Link": "https://blog.michaelthomastech.ca/"
-      },
-      {
-        "Name": "Sneak Easy",
-        "Description": "A fake eCommerce site for selling shoes. I created this website to learn how payment processing is handled. The site lets you browse shoes, add them to your cart, and checkout. The checkout process is handled by Stripe, which is a popular payment processing service.",
-        "Tags": ["Vue", "NuxtJS", "TailwindCSS", "Stripe"],
-        "Image": "sneakeasy.png",
-        "Link": "https://sneakeasy.michaelthomastech.ca/"
-      },
-      {
-        "Name": "Japanese Flashcards",
-        "Description": "A flash card app for learning the two basic Japanese alphabets. I created this app to learn more about android development and React Native. The app lets you browse through flash cards of either the Hiragana or Katakana alphabets.",
-        "Tags": ["React Native", "Expo", "Android", "Google Play Store"],
-        "Image": "japaneseflashcards.png",
-        "Link": "https://play.google.com/store/apps/details?id=com.mthomas0721.jflashcards"
-      }
-    ]
-  }
+  "projects": [
+    {
+      "Name": "My Gift List",
+      "Description": "My Gift List is a web app made with the SvelteKit framework. I created this website as a way to create and share gift lists to avoid duplicate purchases.",
+      "Tags": ["Svelte", "SvelteKit", "TailwindCSS", "MongoDB", "NoSQL"],
+      "Image": "mygiftlist.png",
+      "Link": "https://mygiftlist.michaelthomastech.ca/"
+    },
+    {
+      "Name": "Tech Bites",
+      "Description": "Tech Bites is a blog built with the SvelteKit framework. I created this website to learn more about the Svelte ecosystem and to share my thoughts on various topics.",
+      "Tags": ["Svelte", "SvelteKit", "TailwindCSS", "Contentful", "SASS"],
+      "Image": "techbites.png",
+      "Link": "https://blog.michaelthomastech.ca/"
+    },
+    {
+      "Name": "Sneak Easy",
+      "Description": "A fake eCommerce site for selling shoes. I created this website to learn how payment processing is handled. The site lets you browse shoes, add them to your cart, and checkout. The checkout process is handled by Stripe, which is a popular payment processing service.",
+      "Tags": ["Vue", "NuxtJS", "TailwindCSS", "Stripe"],
+      "Image": "sneakeasy.png",
+      "Link": "https://sneakeasy.michaelthomastech.ca/"
+    },
+    {
+      "Name": "Japanese Flashcards",
+      "Description": "A flash card app for learning the two basic Japanese alphabets. I created this app to learn more about android development and React Native. The app lets you browse through flash cards of either the Hiragana or Katakana alphabets.",
+      "Tags": ["React Native", "Expo", "Android", "Google Play Store"],
+      "Image": "japaneseflashcards.png",
+      "Link": "https://play.google.com/store/apps/details?id=com.mthomas0721.jflashcards"
+    }
+  ]
+}
